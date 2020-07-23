@@ -28,7 +28,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'covid_19.urls'
+ROOT_URLCONF = 'covid.urls'
 
 TEMPLATES = [
     {
@@ -46,7 +46,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'covid_19.wsgi.application'
+WSGI_APPLICATION = 'covid.wsgi.application'
 
 DATABASES = {
     'default': {
